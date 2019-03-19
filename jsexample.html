@@ -1,0 +1,40 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <title> Javascript Page </title>
+    </head>
+    <body>
+        <!-- DOM  : Document Object Model -->
+       
+        <!-- Unconventional Inline 
+        <button 
+            type="button" 
+            onclick="document.getElementById('date').innerHTML=Date()"> 
+            Show date 
+        </button>
+        -->
+       
+        <button 
+            type="button" 
+            onclick="showdate()"> 
+            Show date 
+        </button>
+        <h1 id="date">Click above to view date</h1>
+        <button type="button"
+        onclick="add()"
+        > Click Me</button>
+        <h1 id="result"></h1>
+        <!-- Unconventional in-block
+        <script>
+            // makes a note in JavaScript
+            function showdate(){
+                document.getElementById('date').innerHTML = Date()
+            }
+        </script>
+        -->
+       
+        <script src="jsexample.js"></script>
+    </body>
+</html>

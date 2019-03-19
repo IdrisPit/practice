@@ -1,0 +1,21 @@
+.first{
+    color:red;
+    font-size: 100px;
+    border: 8px red;
+    border-style: dotted dashed solid double;
+    padding: 50px;
+    background-color: aqua;
+}
+#second {
+    color: grey;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+#link {
+    text-decoration:none;
+    color: black;
+}
+/* 
+box - model [ Margin, Border, Padding, Item ]  
+Inside the border is Padding, outside the border is Margin
+*/ 
